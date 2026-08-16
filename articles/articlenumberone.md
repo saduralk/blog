@@ -10,17 +10,17 @@ date: "08/16/2026"
 
 Picture has no relation. Literally at all. It's just a random picture... and I figured I'd put it there because zero people will ever read this. I'm not comparing myself to Leonardo da Vinci in any way, it's just put there because this is just for fun. This is just a hobby and nothing else. So... I don't know what to talk about today. I guess I can start from the fact that... well, I'm in Chicago today at Gia's apartment building because power is out in my hometown of Merrillville, Indiana. 
 
-![Merrillville](poweroutage.jpg)
+![Merrillville](/poweroutage.jpg)
 
 And her apartment building is really nice. It has really great amenities, I'm sitting up on the rooftop in the lounge room as I write this blog post. It's a beautiful view of Chicago's skyline, and it makes me really want to move here. I love this city so much, although I admit I'm slightly biased because in my formative years, I did not live in a very walkable city. Maybe someone who has lived here longer is a little less in love with the city, but I really like it.
 
-![Chicago](chicago-skyline-4.jpg)
+![Chicago](/chicago-skyline-4.jpg)
 
 Anyways, today, I spent my day learning the React web framework. After spending nearly an hour trying to deploy it to GitHub pages, I decided to simplify my frustrations and just deploy it to Vercel. Way easier. I was worried about it costing, but it was actually free, and I could even change the URL for free, too. There are tons of great web-dev learning resources.
 
 You know, I've transitioned from wanting to be in **video game design** to **back-end web development.** Not only is generalized software engineering a lot more beneficial than something niche like video game design, but video games are really unstable right now. Lots of people tell me to do Information Technology, which in my mind is kind of just tech support, but that doesn't really appeal to me all that much. That's because, well...
 
-![TechSupport](technology-support-icon.png)
+![TechSupport](/technology-support-icon.png)
 
 Very honestly? It's too simple. I suppose I just prefer my job to be a little more complex than that. Realistically speaking, *tech support* is kind of just... helping people figure out computers when they've pretty much never even heard of the word technology before.
 
@@ -30,7 +30,7 @@ Apparently that's too hard for people to figure out on their own, so... they'd h
 
 Other people sometimes suggest **Cybersecurity.**
 
-![CyberSecurity](cybersecurity.jpg)
+![CyberSecurity](/cybersecurity.jpg)
 
 Which sounds fun, in theory, right? Protecting information from hackers. Maybe even, at a higher career level, protecting governments from them. Sounds like I'd like it. Requires problem-solving, communication, working with a team, it's complex like I like, but there's a few problems with this.
 
@@ -38,7 +38,7 @@ One, it's too high-stress. Two, I don't care about other people's information ge
 
 My problem with that is I feel pressured... like someone's going to tell me not to pivot out of it. I just don't know, man...
 
-![Shrug](shrug.jpg)
+![Shrug](/shrug.jpg)
 
 Piece of advice, this life is your life. You should do what makes you happy, even if it takes a while, and even if people don't understand it. Please never get it in your head that an older person is right about something just because they are older than you. I've seen thousands of people try to pull that over me, and it never works. Donald Trump is older than most of us and he's objectively wrong about certain things. He's allowed to be wrong, just as you are.
 
