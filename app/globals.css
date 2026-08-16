@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  --font-poppins: "Poppins", sans-serif;
+  --font-cormorant-garamond: "Cormorant Garamond", serif;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #111111;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Cormorant Garamond", "Poppins", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.article {
+  @apply flex flex-col gap-3 font-poppins text-lg tracking-wide mb-20;
+}
+
+.article h1 {
+  @apply font-cormorant-garamond text-4xl text-center tracking-tight;
+}
+
+.article h2 {
+  @apply font-cormorant-garamond text-3xl tracking-tight;
+}
+
+.article ol {
+  @apply list-decimal flex flex-col mx-10 gap-2;
+}
+
+.article ul {
+  @apply list-disc flex flex-col mx-10 gap-2;
+}
+
+.article > pre {
+  @apply bg-gray-100 text-neutral-50 p-5 overflow-scroll;
+}
+
+.article > p > img {
+  @apply w-1/2 mx-auto;
+}
