@@ -42,7 +42,7 @@ body {
 }
 
 .article > pre {
-  @apply bg-gray-100 text-neutral-50 p-5 overflow-scroll;
+  @apply bg-gray-100 text-neutral-900 p-5 overflow-scroll;
 }
 
 .article > p > img {
