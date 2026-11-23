@@ -47,12 +47,12 @@ These areas overlap frequently. A support technician might discover that a hardw
 
 Every computer follows four basic functions:
 
-| Function | Description | Example |
-| --- | --- | --- |
-| Input | Information enters the computer | Pressing keys on a keyboard |
-| Processing | The computer works with the information | A word processor handling each keystroke |
-| Output | Results are presented to the user | Words appearing on a monitor |
-| Storage | Information is saved for later use | Saving a document to an SSD |
+| Function | Description | Example |<br>
+| --- | --- | --- |<br>
+| Input | Information enters the computer | Pressing keys on a keyboard |<br>
+| Processing | The computer works with the information | A word processor handling each keystroke |<br>
+| Output | Results are presented to the user | Words appearing on a monitor |<br>
+| Storage | Information is saved for later use | Saving a document to an SSD |<br>
 
 Typing and saving a document in Microsoft Word demonstrates all four functions: the keyboard provides input, the application processes it, the monitor displays it, and the SSD stores it.
 
@@ -60,16 +60,16 @@ Typing and saving a document in Microsoft Word demonstrates all four functions: 
 
 **Hardware** is the physical equipment you can touch. Important components include:
 
-| Component | Purpose |
-| --- | --- |
-| CPU | Processes instructions |
-| RAM | Temporarily holds active data |
-| Motherboard | Connects computer components |
-| SSD | Provides fast long-term storage |
-| HDD | Provides magnetic long-term storage |
-| GPU | Processes graphics |
-| PSU | Supplies electrical power |
-| Monitor | Displays visual output |
+| Component | Purpose |<br>
+| --- | --- |<br>
+| CPU | Processes instructions |<br>
+| RAM | Temporarily holds active data |<br>
+| Motherboard | Connects computer components |<br>
+| SSD | Provides fast long-term storage |<br>
+| HDD | Provides magnetic long-term storage |<br>
+| GPU | Processes graphics |<br>
+| PSU | Supplies electrical power |<br>
+| Monitor | Displays visual output |<br>
 
 **Software** is the set of programs and instructions that tell hardware what to do. Applications such as Chrome, Microsoft Word, Steam, and Discord run within an operating system. Hardware can be present and healthy, but it is not useful in the way users expect without software.
 
@@ -89,18 +89,18 @@ Windows is one of several major operating systems encountered in IT. macOS is Ap
 
 ## Foundational IT vocabulary
 
-| Term | Definition |
-| --- | --- |
-| CPU | Central Processing Unit; executes instructions |
-| RAM | Temporary working memory |
-| SSD | Solid-state storage for long-term data |
-| HDD | Magnetic storage for long-term data |
-| OS | Software that manages computer resources |
-| BIOS/UEFI | Firmware that initializes hardware and starts the operating system |
-| Driver | Software that lets an OS communicate with hardware |
-| Peripheral | An external device, such as a mouse or printer |
-| Network | A group of connected devices that communicate and share resources |
-| Troubleshooting | A systematic process for identifying and resolving problems |
+| Term | Definition |<br>
+| --- | --- |<br>
+| CPU | Central Processing Unit; executes instructions |<br>
+| RAM | Temporary working memory |<br>
+| SSD | Solid-state storage for long-term data |<br>
+| HDD | Magnetic storage for long-term data |<br>
+| OS | Software that manages computer resources |<br>
+| BIOS/UEFI | Firmware that initializes hardware and starts the operating system |<br>
+| Driver | Software that lets an OS communicate with hardware |<br>
+| Peripheral | An external device, such as a mouse or printer |<br>
+| Network | A group of connected devices that communicate and share resources |<br>
+| Troubleshooting | A systematic process for identifying and resolving problems |<br>
 
 ## My first Windows 11 lab
 
