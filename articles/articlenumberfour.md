@@ -39,12 +39,18 @@ Each CPU core is a physical processing unit. A dual-core CPU has two cores, whil
 
 A **thread** is a sequence of work that the operating system and applications schedule for execution. Technologies such as AMD SMT and Intel Hyper-Threading allow compatible systems to handle multiple threads efficiently.
 
-| CPU concept | Purpose |<br>
-| --- | --- |<br>
-| Core | A physical processing unit |<br>
-| Thread | A sequence of instructions scheduled for execution |<br>
-| Clock speed | The processor's operating frequency, measured in GHz |<br>
-| Cache | Small, fast memory located on or near the CPU |<br>
+| CPU concept | Purpose |
+\
+| --- | --- |
+\
+| Core | A physical processing unit |
+\
+| Thread | A sequence of instructions scheduled for execution |
+\
+| Clock speed | The processor's operating frequency, measured in GHz |
+\
+| Cache | Small, fast memory located on or near the CPU |
+
 
 ### Clock speed
 
@@ -56,11 +62,16 @@ A higher clock speed can contribute to faster performance, but it does not tell 
 
 CPU cache holds frequently used instructions and data so the processor can access them faster than it could from system RAM.
 
-| Cache level | Typical role |<br>
-| --- | --- |<br>
-| L1 | Smallest and fastest; closest to processing work |<br>
-| L2 | Larger and generally slower than L1 |<br>
-| L3 | Largest common cache level and often shared among cores |<br>
+| Cache level | Typical role |
+\
+| --- | --- |
+\
+| L1 | Smallest and fastest; closest to processing work |
+\
+| L2 | Larger and generally slower than L1 |
+\
+| L3 | Largest common cache level and often shared among cores |
+
 
 A simple memory hierarchy is: CPU cache, RAM, and then persistent storage. Cache is the fastest, while storage is larger but much slower.
 
@@ -72,13 +83,20 @@ RAM is volatile: its contents are cleared when power is lost. For example, a gam
 
 RAM capacity is measured in gigabytes.
 
-| Capacity | Typical use |<br>
-| --- | --- |<br>
-| 4 GB | Very basic computing |<br>
-| 8 GB | Basic everyday computing |<br>
-| 16 GB | General-purpose computing and gaming |<br>
-| 32 GB | Heavy multitasking and demanding applications |<br>
-| 64 GB | Professional workloads, virtualization, and extensive multitasking |<br>
+| Capacity | Typical use |
+\
+| --- | --- |
+\
+| 4 GB | Very basic computing |
+\
+| 8 GB | Basic everyday computing |
+\
+| 16 GB | General-purpose computing and gaming |
+\
+| 32 GB | Heavy multitasking and demanding applications |
+\
+| 64 GB | Professional workloads, virtualization, and extensive multitasking |
+
 
 These are general guidelines. Actual requirements depend on the operating system and the applications being used.
 
@@ -129,12 +147,18 @@ SSDs are available in different form factors and interfaces.
 
 These terms describe different categories:
 
-| Term | Describes |<br>
-| --- | --- |<br>
-| M.2 | A physical connector and form factor |<br>
-| SATA | A storage interface and, in some contexts, a protocol arrangement |<br>
-| NVMe | A storage communication protocol |<br>
-| PCIe | A high-speed interconnection used by NVMe and expansion cards |<br>
+| Term | Describes |
+\
+| --- | --- |
+\
+| M.2 | A physical connector and form factor |
+\
+| SATA | A storage interface and, in some contexts, a protocol arrangement |
+\
+| NVMe | A storage communication protocol |
+\
+| PCIe | A high-speed interconnection used by NVMe and expansion cards |
+
 
 An M.2 SSD may use SATA or NVMe. M.2 and NVMe are therefore not interchangeable terms.
 
@@ -144,12 +168,18 @@ A **GPU, or Graphics Processing Unit**, processes large numbers of calculations 
 
 ### Integrated vs. dedicated graphics
 
-| Integrated GPU | Dedicated GPU |<br>
-| --- | --- |<br>
-| Built into or near the CPU package | A separate graphics processor |<br>
-| Uses system RAM or shared memory | Uses dedicated VRAM |<br>
-| Generally more power-efficient | Generally supports more demanding graphics workloads |<br>
-| Suitable for everyday graphics | Suitable for gaming and professional graphics |<br>
+| Integrated GPU | Dedicated GPU |
+\
+| --- | --- |
+\
+| Built into or near the CPU package | A separate graphics processor |
+\
+| Uses system RAM or shared memory | Uses dedicated VRAM |
+\
+| Generally more power-efficient | Generally supports more demanding graphics workloads |
+\
+| Suitable for everyday graphics | Suitable for gaming and professional graphics |
+
 
 **VRAM, or Video RAM**, is memory reserved for graphics-related information such as textures, frame buffers, and rendering assets.
 
@@ -172,12 +202,18 @@ A desktop **Power Supply Unit (PSU)** converts AC power from a wall outlet into 
 
 Important power terms include:
 
-| Term | Meaning |<br>
-| --- | --- |<br>
-| Watt | A unit of power |<br>
-| Voltage | Electrical potential difference |<br>
-| Amperage | Electrical current |<br>
-| 80 PLUS | A PSU efficiency certification |<br>
+| Term | Meaning |
+\
+| --- | --- |
+\
+| Watt | A unit of power |
+\
+| Voltage | Electrical potential difference |
+\
+| Amperage | Electrical current |
+\
+| 80 PLUS | A PSU efficiency certification |
+
 
 A laptop does not normally use a desktop-style PSU. It uses an external AC adapter and internal power-management circuitry to deliver power and charge the battery.
 
@@ -233,13 +269,20 @@ POST can identify certain hardware initialization problems. A system that produc
 
 Opening a game demonstrates how the major components cooperate:
 
-| Step | Component | Role |<br>
-| --- | --- | --- |<br>
-| 1 | SSD | Stores the game and supplies its files |<br>
-| 2 | RAM | Holds active game data |<br>
-| 3 | CPU | Executes game instructions |<br>
-| 4 | GPU | Processes graphics and renders frames |<br>
-| 5 | Monitor | Displays the final output |<br>
+| Step | Component | Role |
+\
+| --- | --- | --- |
+\
+| 1 | SSD | Stores the game and supplies its files |
+\
+| 2 | RAM | Holds active game data |
+\
+| 3 | CPU | Executes game instructions |
+\
+| 4 | GPU | Processes graphics and renders frames |
+\
+| 5 | Monitor | Displays the final output |
+
 
 The motherboard connects these components, drivers allow Windows to communicate with hardware, the power system supplies electricity, cooling controls temperatures, and firmware performs initialization during startup.
 
