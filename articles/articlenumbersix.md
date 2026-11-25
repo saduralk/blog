@@ -31,9 +31,13 @@ The street address identifies the building, while the apartment number identifie
 ### Example network configuration
 
 | Setting | Example |
+\
 | --- | --- |
+\
 | IPv4 address | `192.168.1.25` |
+\
 | Subnet mask | `255.255.255.0` |
+\
 | Default gateway | `192.168.1.1` |
 
 The subnet mask `255.255.255.0` means the first three sections, `192.168.1`, identify the network. The final section identifies the host.
@@ -58,9 +62,13 @@ The default gateway is usually the local router.
 Subnet masks can also be written using **CIDR notation**, where a slash and number indicate how many leading bits identify the network.
 
 | Subnet mask | CIDR notation |
+\
 | --- | --- |
+\
 | `255.255.255.0` | `/24` |
+\
 | `255.255.0.0` | `/16` |
+\
 | `255.0.0.0` | `/8` |
 
 The two formats describe the same concept. For now, it is enough to recognize that `255.255.255.0` and `/24` are equivalent.
@@ -83,10 +91,15 @@ Without DHCP, a user might need to enter all of these settings manually. On a ty
 DHCP commonly uses a four-step process called **DORA**:
 
 | Step | Meaning |
+\
 | --- | --- |
+\
 | Discover | The device asks for a DHCP server |
+\
 | Offer | The server offers an available IP configuration |
+\
 | Request | The device requests the offered configuration |
+\
 | Acknowledge | The server confirms the assignment |
 
 ### Hotel analogy
@@ -132,9 +145,13 @@ Possible troubleshooting areas include:
 For example:
 
 | Domain name | Network destination |
+\
 | --- | --- |
+\
 | `google.com` | One or more associated IP addresses |
+\
 | `microsoft.com` | One or more associated IP addresses |
+\
 | `wikipedia.org` | One or more associated IP addresses |
 
 DNS is similar to a phone's contact list. A person remembers a name instead of every phone number, and the phone looks up the number when needed.
@@ -220,17 +237,29 @@ The delivery analogy:
 For CompTIA A+, a student should become familiar with several common ports.
 
 | Port | Protocol or service | Typical purpose |
+\
 | --- | --- | --- |
+\
 | 20/21 | FTP | File transfer |
+\
 | 22 | SSH | Secure remote administration |
+\
 | 23 | Telnet | Unencrypted remote administration |
+\
 | 25 | SMTP | Sending email |
+\
 | 53 | DNS | Domain name resolution |
+\
 | 67/68 | DHCP | Automatic IP configuration |
+\
 | 80 | HTTP | Standard web traffic |
+\
 | 110 | POP3 | Receiving email |
+\
 | 143 | IMAP | Receiving and synchronizing email |
+\
 | 443 | HTTPS | Secure web traffic |
+\
 | 3389 | RDP | Windows Remote Desktop |
 
 Important exceptions and details:
@@ -297,11 +326,17 @@ netstat -ano
 This command displays active network connections and listening ports.
 
 | Column | Meaning |
+\
 | --- | --- |
+\
 | Proto | TCP or UDP |
+\
 | Local Address | The local IP address and port |
+\
 | Foreign Address | The remote IP address and port |
+\
 | State | TCP connection status, when applicable |
+\
 | PID | Process ID associated with the connection |
 
 Examples of states include:
@@ -327,12 +362,19 @@ The association can help determine which application is using a connection or li
 The commands from this lesson separate the network into testable layers:
 
 | Problem | Useful command or setting |
+\
 | --- | --- |
+\
 | Wrong local configuration | `ipconfig /all` |
+\
 | DHCP failure | Check DHCP Server and for `169.254.x.x` |
+\
 | DNS failure | `nslookup` |
+\
 | TCP or UDP connections | `netstat -ano` |
+\
 | Router communication | `ping <default gateway>` |
+\
 | External IP communication | `ping <public IP>` |
 
 A technician should test in sequence instead of assuming the first visible issue is the cause.
