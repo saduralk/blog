@@ -51,6 +51,19 @@ export const getCategorisedArticles = (): Record<string, ArticleItem[]> => {
     }
     )
 
+    Object.keys(categorisedArticles).forEach(category => {
+        categorisedArticles[category].sort((a, b) => {
+            const lessonA = /Lesson\s*(\d+)/i.exec(a.title)?.[1];
+            const lessonB = /Lesson\s*(\d+)/i.exec(b.title)?.[1];
+
+            if (lessonA && lessonB) {
+                return Number(lessonA) - Number(lessonB);
+            }
+
+            return 0;
+        });
+    });
+
     return categorisedArticles;
 }
 
